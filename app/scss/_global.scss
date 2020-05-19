@@ -10,6 +10,8 @@ html {
 
 a {
 	display: inline-block;
+	text-decoration: none;
+	color:$text;
 }
 
 ul,
@@ -17,5 +19,18 @@ li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-size: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	color: $text;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0 auto;
 }
