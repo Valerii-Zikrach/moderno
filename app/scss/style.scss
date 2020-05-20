@@ -380,7 +380,6 @@
 /*Advantages End */
 /*Author Start */
 .author {
-
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -419,5 +418,38 @@
 	}
 }
 
-
 /*Author End */
+/*Tutorial Start */
+.tutorial {
+	padding: 70px 0 120px;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		max-width: 370px;
+		width: 100%;
+	}
+}
+
+.tutorial__item {
+	&-images {
+		min-height: 270px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	&-title {
+		@include f700;
+		font-size: 24px;
+		text-align: center;
+		background-color: #f8f8f8;
+		padding: 30px 10px;
+		color: $bg;
+	}
+}
+
+/*Tutorial End */
