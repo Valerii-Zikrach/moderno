@@ -26,6 +26,19 @@ li {
 	margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-size: inherit;
+}
+p{
+	margin: 0;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -51,8 +64,9 @@ body {
 		padding: 0px 15px;
 	}
 }
-.page-content{
-	background-color:$grey;
+
+.page-content {
+	background-color: $grey;
 }
 
 .wrapper {
@@ -116,5 +130,17 @@ body {
 		a {
 			color: #b0bec5;
 		}
+	}
+}
+.angle-right{
+	position: relative;
+	padding-left: 15px;
+	&:before{
+		content: "\f105";
+		font-family: 'icomoon';
+		position: absolute;
+		color:$green;
+		left: 0;
+		font-size: 14px;
 	}
 }
